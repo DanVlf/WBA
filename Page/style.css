@@ -1,0 +1,145 @@
+.brand{
+    font-family: 'Vibur' , cursive;
+    font-size: 50px;
+}
+.navbar {
+    font-family: 'Vibur' , cursive;
+    font-size: 30px;
+    background: #FFFFFF;
+}
+.navbar-toggler-icon{
+}
+
+
+.hero-image{
+    background-image: url("/pictures/Pozadi.png");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text1 {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Vibur' , cursive;
+    
+}
+.hero-text2{
+    text-align: center;
+    position: absolute;
+    top: 200%;
+    margin-left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Vibur' , cursive;
+}
+.zoom {
+  transition: transform .2s;  
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  
+}
+.vyrobky-text{
+    text-align: center;
+    position: relative;
+    padding-top: 130px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: 'Vibur' , cursive;
+    
+}
+
+
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: center;
+    padding-bottom: 100px;
+    
+    
+    
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    
+    
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  .info-text{
+    text-align: center;
+    position: absolute;
+    bottom: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Vibur' , cursive;
+  }
+  .infoimg{
+    background-image: url("/pictures/Pozadi.png");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .map{
+    margin-top: 150px;
+    padding-left: 10%;
+    width: auto;
+  }
+  .kontakty-text{
+    text-align: center;
+    position: absolute;
+    bottom: -338%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Vibur' , cursive;
+  }
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+      
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+      border: 50px solid white;
+      
+    }
+
+  }
