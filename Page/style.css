@@ -7,8 +7,7 @@
     font-size: 30px;
     background: #FFFFFF;
 }
-.navbar-toggler-icon{
-}
+
 
 
 .hero-image{
@@ -93,7 +92,7 @@
   .info-text{
     text-align: center;
     position: absolute;
-    bottom: 70%;
+    bottom: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -115,11 +114,29 @@
   }
   .kontakty-text{
     text-align: center;
-    position: absolute;
-    bottom: -338%;
+    position: relative;
+    margin-top: 100px;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: black;
+    font-family: 'Vibur' , cursive;
+  }
+  .objednavka-text{
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: 'Vibur' , cursive;
+  }
+  .input{
+    margin-top: 80px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Vibur' , cursive;
   }
   /* Responsive layout - makes a two column-layout instead of four columns */
@@ -141,5 +158,5 @@
       border: 50px solid white;
       
     }
-
+  
   }
